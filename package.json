@@ -19,6 +19,7 @@
   "scripts": {
     "docs": "rm -rf docs && typedoc",
     "build": "rm -rf dist && tsc && webpack",
+    "prepare": "rm -rf dist && tsc && webpack",
     "lint": "eslint 'src/**/*.ts'",
     "lint:fix": "eslint --fix 'src/**/*.ts'",
     "test": "ts-mocha tests/**/*.spec.ts"
