@@ -2,7 +2,7 @@
 /* eslint-disable no-bitwise */
 
 import { Buffer } from 'buffer';
-import * as stream from 'stream';
+import * as stream from 'stream-browserify';
 import BigNumber from 'bignumber.js';
 import { addSpanBytesToObject, getBigNum, POW_2_24, utf8Decoder } from './utils';
 import BufferList from './BufferList';
